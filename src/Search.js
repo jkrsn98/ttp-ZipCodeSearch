@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./Search.css"
 import axios from 'axios'
 export default class Search extends Component {
     
@@ -9,6 +10,7 @@ export default class Search extends Component {
             query: '',
             results: {},
             loading:false,
+            message: ' '
         }
     }
 
@@ -18,8 +20,10 @@ export default class Search extends Component {
         axios.get(searchURL,)
             .then ( res => {
                 console.log(res.data);
+                const msg = !res.data?'no results':'';
                 this.setState({
                     results: res.data,
+                    message: msg,
                     loading:false
                 })
             })
@@ -27,6 +31,7 @@ export default class Search extends Component {
                 if(error){
                     this.setState({
                     loading:false,
+                    message:'failed to fetch data'
                     })
                 }
             })
@@ -37,6 +42,7 @@ export default class Search extends Component {
         this.setState({
             query : query,
             loading : true,
+            message : ' '
         }, () =>{ 
                     this.fetchSearchResults(query);
                 })
@@ -46,7 +52,7 @@ export default class Search extends Component {
         const results = this.state;
         if(results.results.length){
             return(
-                <div className="results">
+                <div className="results-container">
                     {results.results.map(result => {
                         return(
                             <a key={result.RecordNumber}>
@@ -54,6 +60,8 @@ export default class Search extends Component {
                                 <p>{result.City}</p>
                                 <p>{result.State}</p>
                                 <p>{result.Country}</p>
+                                <p>({result.Lat},{result.Long})</p>
+                                <p>POPULATION {result.EstimatedPopulation}</p>
                                 </div>
                             </a>
                         )
@@ -69,7 +77,7 @@ export default class Search extends Component {
         return (
             <div>
                <form id="form">
-                    <label className="search">
+                    <label className="search-label" htmlFor="search-input">
                        <p id="prompt">enter a zip code:</p>
                         <input 
                             id="search-input" 
