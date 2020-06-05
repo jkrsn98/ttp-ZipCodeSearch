@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ttp-ZipSearch/static/css/main.5f361e03.chunk.css",
-    "main.js": "/ttp-ZipSearch/static/js/main.e8b15a9d.chunk.js",
-    "main.js.map": "/ttp-ZipSearch/static/js/main.e8b15a9d.chunk.js.map",
-    "runtime-main.js": "/ttp-ZipSearch/static/js/runtime-main.2ac6f437.js",
-    "runtime-main.js.map": "/ttp-ZipSearch/static/js/runtime-main.2ac6f437.js.map",
-    "static/js/2.dfa9890e.chunk.js": "/ttp-ZipSearch/static/js/2.dfa9890e.chunk.js",
-    "static/js/2.dfa9890e.chunk.js.map": "/ttp-ZipSearch/static/js/2.dfa9890e.chunk.js.map",
-    "index.html": "/ttp-ZipSearch/index.html",
-    "precache-manifest.cc647ac2b6fe84698d4ddec3c6d9457f.js": "/ttp-ZipSearch/precache-manifest.cc647ac2b6fe84698d4ddec3c6d9457f.js",
-    "service-worker.js": "/ttp-ZipSearch/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/ttp-ZipSearch/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.dfa9890e.chunk.js.LICENSE.txt": "/ttp-ZipSearch/static/js/2.dfa9890e.chunk.js.LICENSE.txt"
+    "main.css": "/ttp-ZipCodeSearch/static/css/main.244e0f75.chunk.css",
+    "main.js": "/ttp-ZipCodeSearch/static/js/main.ce692edc.chunk.js",
+    "main.js.map": "/ttp-ZipCodeSearch/static/js/main.ce692edc.chunk.js.map",
+    "runtime-main.js": "/ttp-ZipCodeSearch/static/js/runtime-main.89743c6f.js",
+    "runtime-main.js.map": "/ttp-ZipCodeSearch/static/js/runtime-main.89743c6f.js.map",
+    "static/js/2.1f4b3fa1.chunk.js": "/ttp-ZipCodeSearch/static/js/2.1f4b3fa1.chunk.js",
+    "static/js/2.1f4b3fa1.chunk.js.map": "/ttp-ZipCodeSearch/static/js/2.1f4b3fa1.chunk.js.map",
+    "index.html": "/ttp-ZipCodeSearch/index.html",
+    "precache-manifest.4efd7761f7d0b3d4fc6de4ed905b3a9d.js": "/ttp-ZipCodeSearch/precache-manifest.4efd7761f7d0b3d4fc6de4ed905b3a9d.js",
+    "service-worker.js": "/ttp-ZipCodeSearch/service-worker.js",
+    "static/css/main.244e0f75.chunk.css.map": "/ttp-ZipCodeSearch/static/css/main.244e0f75.chunk.css.map",
+    "static/js/2.1f4b3fa1.chunk.js.LICENSE.txt": "/ttp-ZipCodeSearch/static/js/2.1f4b3fa1.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2ac6f437.js",
-    "static/js/2.dfa9890e.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.e8b15a9d.chunk.js"
+    "static/js/runtime-main.89743c6f.js",
+    "static/js/2.1f4b3fa1.chunk.js",
+    "static/css/main.244e0f75.chunk.css",
+    "static/js/main.ce692edc.chunk.js"
   ]
 }
