@@ -1,5 +1,5 @@
 #form{
-    opacity: 75%;
+    opacity: .75;
 }
 
 
@@ -28,7 +28,7 @@
 
 }
 .results-container{
-    opacity: 80%;
+    opacity: .80;
     font-size: 12px;
     padding: 10px;
     margin-top: 120px;
