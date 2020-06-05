@@ -1,0 +1,50 @@
+#form{
+    opacity: 75%;
+}
+
+
+#prompt{
+    color: beige;
+    font-size: 32px;
+    width: 300px;
+}
+
+#search-input{
+    text-align: center;
+    height:26px;
+    width:100px;
+    border-radius: 5px;
+    border:2px solid #cccccc;
+}
+
+#div3{ 
+    width:100px;
+    font-size: 20px;
+}
+#searchbutton{
+    width:100px;
+    border-radius: 5px;
+    border:2px solid #cccccc;
+
+}
+.results-container{
+    opacity: 80%;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 120px;
+    border: 5px ridge #cccccc;
+}
+#individual-result{
+    padding: 10px;
+    border: 2px ridge gray;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type=number] {
+  -moz-appearance: textfield;
+}
