@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/ttp-ZipCodeSearch/precache-manifest.dff80bf698d1e9c613fcbf8a25654f2b.js"
+  "/ttp-ZipCodeSearch/precache-manifest.36f05a4d190a7ba7302f73950edbf8f4.js"
 );
 
 self.addEventListener('message', (event) => {
